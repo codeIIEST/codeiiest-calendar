@@ -4,8 +4,12 @@
   "description": "Public calendar for CodeIIEST",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/http-server -a localhost -p 8000 -c-1"
   },
   "author": "Dwaipayan Ray",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
 }
